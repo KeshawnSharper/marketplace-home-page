@@ -15,13 +15,14 @@
 }
 
 .search {
-  background-color: var(--prpl-100);
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   border-radius: 40px;
   margin-left: 1rem;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   position: relative;
+  padding: 1rem 16rem 1rem 1rem;
 }
 .search > svg {
   color: var(--prpl-400);
@@ -31,6 +32,7 @@
   width: var(--size);
   position: absolute;
   left: 14px;
+
 }
 
 .settingsBtn {
@@ -68,16 +70,19 @@
 
 .user {
   display: flex;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
-
+.shopping {
+  display: flex;
+  margin-left: 0.6rem;
+}
 .btn {
   border: none;
 
   border-radius: 20px;
 
-  background-color: var(--prpl-100);
-  color: var(--prpl-700);
+  
+  /* color: ; */
 }
 
 .btn + .btn {
@@ -93,13 +98,21 @@
   height: var(--size);
   width: var(--size);
 }
-
+.circle {
+  /* height: 45px;
+  width: 45px; */
+  background-color: #555;
+  background-image:url("https://lh4.googleusercontent.com/-iyNH1rBu2AQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmjFFXuT9Kyt1ceQT8tfshZBxJgwg/s96-c/photo.jpg");
+  border-radius: 50%;
+  background-position: center;
+  padding: 40px
+}
 .userIcon {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-
+  background: url("https://res.cloudinary.com/di449masi/image/upload/v1601147199/Screen_Shot_2020-09-26_at_3.05.17_PM_inezu1.png");
   --size: 30px;
   height: var(--size);
   width: var(--size);
